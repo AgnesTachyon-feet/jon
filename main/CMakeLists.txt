@@ -4,6 +4,7 @@ idf_component_register(
     PRIV_REQUIRES
         dht11
         esp_driver_gpio
+        esp_timer
         freertos
         lcd_hd44780
         log
